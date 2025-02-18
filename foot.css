@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* IMPORTING FONTS */
+
+@font-face{
+  font-family: "mainhead";
+  src: url("/assets/fonts/Induction.otf");
+}
+
+@font-face{
+  font-family: 'tailhead';
+  src: url("/assets/fonts/Varelmo.otf");
+}
+
+@font-face{
+    font-family: 'text';
+    src: url("/assets/fonts/quack.ttf");
+  }
+
+*{
+  color: white;
+}
+
+.back{
+    background-color: rgb(0, 0, 0);
+}
+
+.flexfooter{
+  background-image: linear-gradient(to top,rgb(0, 0, 0) , rgb(76, 0, 0), black);
+}
+.fitname{
+  display: flex;
+  justify-content: center;
+}
+.fitname h1{
+  color: rgb(255, 77, 0);
+  font-family: mainhead;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+/* FOOTER DETAIL */
+
+.footerdetail{
+  text-align: center;
+}
+
+.footerdetail h2{
+  font-family: tailhead;
+  text-align: center;
+  font-size: 20px;
+}
+
+.time span{
+  text-decoration: none;
+  color: rgb(174, 174, 174);
+}
+
+
+/* VISIT US */
+
+.footercontact {
+  text-align: center;
+  padding: 10px;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+
+}
+
+.footercontact h2{
+  font-family: tailhead;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.contactcont span{
+  text-decoration: none;
+  color: rgb(174, 174, 174);
+  
+}
+
+
+
+
+
+
+
+/* FOOTER ABOUT US*/
+
+.footerabout{
+  text-align: center;
+}
+
+.footerabout a{
+  text-decoration: none;
+  color: rgb(174, 174, 174);
+  transition: ease-in-out 0.2s;
+}
+
+.footerabout a:hover{
+  color: rgb(255, 77, 0);
+  text-decoration: underline;
+  
+}
+
+
+
+
+.footersocials{
+  border: 1px solid white;
+  padding: 50px;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+
+
+
+
+/* FOOTER SOCIALS */
+
+.footersocial h2{
+  font-family: tailhead;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contactsoc {
+  display: flex;
+  justify-content: center;
+}
+
+.footersocial .contactsoc a i{
+  font-size: 30px;
+  transition: ease-in-out 0.3s;
+  margin-right: 15px;
+}
+
+
+.footersocial .contactsoc a .fa-square-facebook:hover{
+  transform: scale(1.2);
+  color: rgb(0, 140, 255);
+}
+
+.footersocial .contactsoc a .fa-square-instagram:hover{
+  transform: scale(1.2);
+  background: linear-gradient(45deg,rgb(229, 255, 0), #ffd900, #ff0088);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footersocial .contactsoc a .fa-x-twitter:hover{
+  transform: scale(1.2);
+}
+
+.footersocial .contactsoc a .fa-youtube:hover{
+  transform: scale(1.2);
+  color: rgb(255, 69, 69);
+}
+
+
+
+
